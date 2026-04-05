@@ -2296,6 +2296,18 @@ and (min-height: 1217px)
         }
     }
 }
+@media (max-width: 350px) {
+    main {
+        .dots {
+            transform: scale(0.6) !important;
+            gap: 1vh;
+
+            li {
+                margin: 3px;
+            }
+        }
+    }
+}
 
 @media (max-width: 400px) {
     main {

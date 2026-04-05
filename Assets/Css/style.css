@@ -1475,6 +1475,15 @@ main .contact a p {
     padding-top: 70vh !important;
   }
 }
+@media (max-width: 350px) {
+  main .dots {
+    transform: scale(0.6) !important;
+    gap: 1vh;
+  }
+  main .dots li {
+    margin: 3px;
+  }
+}
 @media (max-width: 400px) {
   main .dots {
     transform: scale(0.7);
