@@ -155,6 +155,8 @@ header nav ul button p {
 main {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
@@ -534,6 +536,9 @@ main .container .projects-main .voltar {
 main .container .diplomas_main {
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
+  padding-top: 10vh;
+  overflow-y: auto !important;
   position: absolute;
   background-color: #ffffff;
   top: 0;
@@ -541,7 +546,6 @@ main .container .diplomas_main {
   place-items: center;
   transform: translateY(100%);
   transition: 0.5s ease-in-out;
-  overflow-y: auto !important;
 }
 main .container .diplomas_main .content {
   width: 100%;
@@ -561,7 +565,8 @@ main .container .diplomas_main .content .voltar {
   padding-bottom: 3rem;
 }
 main .container .diplomas_main .content .container {
-  width: auto;
+  width: 100%;
+  padding-top: 10vh;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -1436,6 +1441,38 @@ main .contact a p {
     left: 2vh;
     bottom: auto;
     right: auto;
+  }
+}
+@media (max-width: 700px) {
+  main .container .diplomas_main {
+    padding-top: 0;
+  }
+  main .container .diplomas_main .content .container {
+    padding-top: 0;
+  }
+  main .container .diplomas_main .content .container .diploma img {
+    width: 400px;
+  }
+  main .container .diplomas_main .content .voltar {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 600px) {
+  main .container .diplomas_main .content {
+    padding: 0 !important;
+    margin-bottom: 30vh !important;
+  }
+  main .container .diplomas_main .content .container {
+    padding: 0 !important;
+    margin-top: -30vh;
+  }
+  main .container .diplomas_main .content .container .diploma img {
+    width: 300px;
+  }
+}
+@media (max-width: 1240px) {
+  main .container .diplomas_main .content .container {
+    padding-top: 70vh !important;
   }
 }
 @media (max-width: 400px) {
