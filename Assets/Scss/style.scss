@@ -2029,7 +2029,7 @@ main {
 @media (max-width: 1700px) {
     main {
         .container {
-            .experiencia {
+            .experiencia, .inicio, .conhecimento, .projects {
                 .content {
                     transform: scale(0.8);
                 }
@@ -2069,16 +2069,14 @@ main {
 @media (max-height: 750px) and (min-width: 1000px) and (max-width: 1900px) {
     main {
         .container {
-            .inicio {
+            .inicio, .conhecimento, .experiencia, .projects {
                 .content {
-                    transform: scale(0.8);
+                    transform: scale(0.8) !important;
                 }
             }
 
             .conhecimento {
                 .content {
-                    transform: scale(0.8);
-
                     .baixo {
                         padding-top: 5vh;
                     }

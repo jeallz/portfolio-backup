@@ -1358,7 +1358,7 @@ main .contact a p {
   }
 }
 @media (max-width: 1700px) {
-  main .container .experiencia .content {
+  main .container .experiencia .content, main .container .inicio .content, main .container .conhecimento .content, main .container .projects .content {
     transform: scale(0.8);
   }
 }
@@ -1373,11 +1373,8 @@ main .contact a p {
   }
 }
 @media (max-height: 750px) and (min-width: 1000px) and (max-width: 1900px) {
-  main .container .inicio .content {
-    transform: scale(0.8);
-  }
-  main .container .conhecimento .content {
-    transform: scale(0.8);
+  main .container .inicio .content, main .container .conhecimento .content, main .container .experiencia .content, main .container .projects .content {
+    transform: scale(0.8) !important;
   }
   main .container .conhecimento .content .baixo {
     padding-top: 5vh;
