@@ -1453,12 +1453,6 @@ main {
             }
         }
 
-        .contact {
-            transform: scale(0.7);
-            bottom: 0.5vh;
-            right: 0.5vh;
-        }
-
         .dots {
             transform: scale(0.7);
             bottom: 0;
@@ -2142,16 +2136,6 @@ main {
     }
 }
 
-@media (max-width: 481px) and (max-height: 750px) {
-    main {
-        .contact {
-            transform: scale(0.6);
-            bottom: 0.1vh;
-            right: 0.1vh;
-        }
-    }
-}
-
 @media (max-width: 406px) and (max-height: 750px) {
     main {
         .container {
@@ -2228,6 +2212,17 @@ and (min-height: 1217px)
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    main {
+        .contact {
+            top: 2vh;
+            left: 2vh;
+            bottom: auto;
+            right: auto;
         }
     }
 }

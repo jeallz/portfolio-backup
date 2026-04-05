@@ -1104,11 +1104,6 @@ main .contact a p {
   main .container .inicio .cima .text h2 {
     font-size: 12pt !important;
   }
-  main .contact {
-    transform: scale(0.7);
-    bottom: 0.5vh;
-    right: 0.5vh;
-  }
   main .dots {
     transform: scale(0.7);
     bottom: 0;
@@ -1401,13 +1396,6 @@ main .contact a p {
     font-size: 9pt;
   }
 }
-@media (max-width: 481px) and (max-height: 750px) {
-  main .contact {
-    transform: scale(0.6);
-    bottom: 0.1vh;
-    right: 0.1vh;
-  }
-}
 @media (max-width: 406px) and (max-height: 750px) {
   main .container .experiencia .content .meio .cards .card .main p {
     font-size: 8pt;
@@ -1440,6 +1428,14 @@ main .contact a p {
   }
   main .container .inicio .cima .social a img {
     width: 28px !important;
+  }
+}
+@media (max-width: 630px) {
+  main .contact {
+    top: 2vh;
+    left: 2vh;
+    bottom: auto;
+    right: auto;
   }
 }
 @media (max-width: 400px) {
