@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "tecnologias": [
     {
@@ -72,79 +71,4 @@
       "descricao": "Visual Studio Code é um editor de código desenvolvido pela Microsoft e amplamente utilizado por desenvolvedores de diversas áreas. Ele combina leveza com um conjunto poderoso de ferramentas que auxiliam na escrita e organização de código. O editor oferece suporte para múltiplas linguagens de programação, integração com Git, depuração integrada e milhares de extensões que expandem suas funcionalidades. Com essas extensões é possível transformar o VS Code em um ambiente completo de desenvolvimento para web, mobile ou aplicações backend, tornando o fluxo de trabalho muito mais produtivo."
     }
   ]
-=======
-{
-  "tecnologias": [
-    {
-      "nome": "HTML",
-      "nivel": "Avançado",
-      "descricao": "HTML (HyperText Markup Language) é a linguagem de marcação responsável por estruturar o conteúdo de páginas web. Ele define elementos como títulos, parágrafos, imagens, links, formulários e tabelas, permitindo que navegadores interpretem e exibam corretamente as informações de um site. Embora não seja uma linguagem de programação, o HTML é a base de praticamente toda aplicação web. Em conjunto com CSS e JavaScript, ele forma o núcleo do desenvolvimento front-end moderno, possibilitando desde páginas simples até interfaces complexas e aplicações interativas acessadas diretamente no navegador."
-    },
-    {
-      "nome": "CSS",
-      "nivel": "Intermediário/Avançado",
-      "descricao": "CSS (Cascading Style Sheets) é a linguagem utilizada para estilizar e definir o layout de páginas web construídas com HTML. Com ele é possível controlar cores, tipografia, espaçamentos, alinhamentos, animações e posicionamento de elementos. O CSS moderno inclui recursos avançados como Flexbox, Grid Layout, variáveis, media queries e animações complexas, permitindo a criação de interfaces responsivas que se adaptam a diferentes tamanhos de tela. Ele separa a estrutura do design, tornando os projetos mais organizados e fáceis de manter, além de permitir experiências visuais mais profissionais e agradáveis para o usuário."
-    },
-    {
-      "nome": "JavaScript",
-      "nivel": "Intermediário",
-      "descricao": "JavaScript é a principal linguagem de programação utilizada no desenvolvimento web para tornar páginas interativas e dinâmicas. Com ele é possível manipular elementos HTML, reagir a eventos do usuário, validar formulários e criar animações complexas diretamente no navegador. Atualmente JavaScript também é utilizado no desenvolvimento de aplicações completas utilizando frameworks e bibliotecas modernas. Além disso, com tecnologias como Node.js, a linguagem passou a ser usada também no back-end, permitindo que desenvolvedores utilizem um único ecossistema para construir aplicações web completas."
-    },
-    {
-      "nome": "Sass",
-      "nivel": "Avançado",
-      "descricao": "Sass (Syntactically Awesome Style Sheets) é um pré-processador de CSS que adiciona funcionalidades avançadas à escrita de estilos para páginas web. Ele permite utilizar variáveis, funções, mixins, herança e organização modular de arquivos, facilitando a manutenção e escalabilidade de projetos maiores. Ao escrever Sass, o código é posteriormente compilado para CSS tradicional que os navegadores conseguem interpretar. Isso torna o processo de desenvolvimento muito mais produtivo e organizado, especialmente em projetos complexos onde o gerenciamento de estilos pode se tornar difícil usando apenas CSS puro."
-    },
-    {
-      "nome": "Git",
-      "nivel": "Básico",
-      "descricao": "Git é um sistema de controle de versão distribuído amplamente utilizado no desenvolvimento de software. Ele permite que desenvolvedores acompanhem mudanças no código ao longo do tempo, revertam versões anteriores e colaborem de forma eficiente em projetos. Com Git é possível trabalhar em diferentes ramificações de código chamadas branches, facilitando testes e desenvolvimento paralelo de funcionalidades. O sistema registra cada alteração realizada no projeto, criando um histórico completo das modificações. Isso torna o desenvolvimento mais seguro e organizado, especialmente em projetos colaborativos."
-    },
-    {
-      "nome": "GitHub",
-      "nivel": "Intermediário",
-      "descricao": "GitHub é uma plataforma baseada em nuvem que utiliza o sistema Git para hospedar repositórios de código e facilitar a colaboração entre desenvolvedores. Ele permite armazenar projetos, acompanhar alterações no código, revisar contribuições e gerenciar versões de forma organizada. Além disso, oferece recursos como issues, pull requests, integração contínua e páginas para documentação. O GitHub também funciona como um portfólio profissional para desenvolvedores, permitindo que compartilhem seus projetos e demonstrem suas habilidades técnicas para empresas e outros profissionais da área."
-    },
-    {
-      "nome": "Lua",
-      "nivel": "Básico",
-      "descricao": "Lua é uma linguagem de programação leve, rápida e extremamente flexível, criada originalmente no Brasil. Ela é amplamente utilizada em jogos, sistemas embarcados e aplicações que precisam de scripts configuráveis. Lua possui uma sintaxe simples e fácil de aprender, mas ao mesmo tempo poderosa o suficiente para desenvolver sistemas complexos. Muitos motores de jogos utilizam Lua para scripting, permitindo que comportamentos e lógicas sejam alterados sem modificar o código principal da aplicação. Sua eficiência e simplicidade a tornam muito popular em projetos que exigem desempenho e baixo consumo de recursos."
-    },
-    {
-      "nome": "Dart",
-      "nivel": "Básico",
-      "descricao": "Dart é uma linguagem de programação desenvolvida pelo Google e amplamente conhecida por ser utilizada no desenvolvimento de aplicações com o framework Flutter. Ela foi projetada para criar aplicações rápidas e modernas para diferentes plataformas, incluindo mobile, web e desktop. Dart possui tipagem opcional, orientação a objetos e ferramentas robustas para desenvolvimento de interfaces. Quando utilizada com Flutter, permite criar aplicações multiplataforma com uma única base de código, o que reduz significativamente o tempo de desenvolvimento e manutenção de projetos."
-    },
-    {
-      "nome": "Node.js",
-      "nivel": "Intermediário",
-      "descricao": "Node.js é um ambiente de execução que permite utilizar JavaScript no lado do servidor. Ele é construído sobre o motor V8 do Google Chrome e foi projetado para criar aplicações altamente escaláveis e eficientes. Node.js utiliza um modelo de execução assíncrono baseado em eventos, o que permite lidar com múltiplas requisições simultaneamente sem bloquear o sistema. Isso o torna muito popular para desenvolvimento de APIs, aplicações em tempo real, servidores web e ferramentas de automação. Seu grande ecossistema de pacotes facilita a criação de soluções complexas rapidamente."
-    },
-    {
-      "nome": "React.js",
-      "nivel": "Básico",
-      "descricao": "React.js é uma biblioteca JavaScript criada pelo Facebook para a construção de interfaces de usuário modernas e dinâmicas. Ela é baseada no conceito de componentes reutilizáveis, permitindo que diferentes partes de uma aplicação sejam desenvolvidas e mantidas de forma independente. React utiliza um sistema chamado Virtual DOM para atualizar apenas as partes necessárias da interface, tornando as aplicações mais rápidas e eficientes. É amplamente utilizado no desenvolvimento de aplicações web modernas, especialmente em projetos que exigem alta interatividade e escalabilidade."
-    },
-    {
-      "nome": "WordPress",
-      "nivel": "Intermediário",
-      "descricao": "WordPress é um sistema de gerenciamento de conteúdo extremamente popular utilizado para criar e administrar sites, blogs e lojas virtuais. Ele permite que usuários construam páginas web completas sem a necessidade de programar tudo do zero. A plataforma possui milhares de temas e plugins que expandem suas funcionalidades, permitindo desde sites simples até projetos complexos. Desenvolvedores também podem personalizar profundamente o WordPress utilizando PHP, HTML, CSS e JavaScript, criando soluções sob medida para diferentes tipos de projetos e clientes."
-    },
-    {
-      "nome": "Arduino",
-      "nivel": "Básico",
-      "descricao": "Arduino é uma plataforma de prototipagem eletrônica baseada em hardware e software de código aberto. Ela permite que desenvolvedores e entusiastas criem projetos que integram sensores, motores, LEDs e diversos outros componentes eletrônicos. A programação é feita utilizando uma linguagem baseada em C/C++, dentro de um ambiente simples e acessível. Arduino é amplamente utilizado em projetos educacionais, automação, robótica e Internet das Coisas. Sua popularidade vem da facilidade de uso e da grande comunidade que compartilha projetos e soluções."
-    },
-    {
-      "nome": "cPanel",
-      "nivel": "Intermediário",
-      "descricao": "cPanel é um painel de controle amplamente utilizado para gerenciamento de hospedagens de sites em servidores web. Ele oferece uma interface gráfica que permite administrar arquivos, bancos de dados, domínios, contas de e-mail e configurações do servidor sem a necessidade de utilizar linha de comando. Desenvolvedores e administradores de sites utilizam o cPanel para gerenciar aplicações web, instalar sistemas como WordPress, configurar backups e monitorar recursos do servidor. Sua interface intuitiva facilita a administração de ambientes de hospedagem mesmo para usuários menos técnicos."
-    },
-    {
-      "nome": "Visual Studio Code",
-      "nivel": "Avançado",
-      "descricao": "Visual Studio Code é um editor de código desenvolvido pela Microsoft e amplamente utilizado por desenvolvedores de diversas áreas. Ele combina leveza com um conjunto poderoso de ferramentas que auxiliam na escrita e organização de código. O editor oferece suporte para múltiplas linguagens de programação, integração com Git, depuração integrada e milhares de extensões que expandem suas funcionalidades. Com essas extensões é possível transformar o VS Code em um ambiente completo de desenvolvimento para web, mobile ou aplicações backend, tornando o fluxo de trabalho muito mais produtivo."
-    }
-  ]
->>>>>>> 9fbe6f0 (atualização mobile)
 }
