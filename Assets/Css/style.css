@@ -478,7 +478,7 @@ main .container .projects-main {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -492,14 +492,14 @@ main .container .projects-main .cards {
   width: 70vw !important;
   height: auto;
   padding-bottom: 10vh;
-  display: grid;
-  place-items: center;
-  display: grid;
-  gap: 15vh;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vh;
 }
 main .container .projects-main .cards .card {
-  width: 22vw;
+  width: 25rem;
   height: 30vh;
   border-radius: 15px;
   cursor: pointer;
@@ -523,7 +523,7 @@ main .container .projects-main .cards .card .text {
   padding: 2vh;
 }
 main .container .projects-main .cards .card .text h3 {
-  font-size: 20pt;
+  font-size: 18pt;
 }
 main .container .projects-main .cards .card .text p {
   font-size: 13pt;
@@ -532,6 +532,7 @@ main .container .projects-main .voltar {
   width: 100%;
   display: grid;
   place-items: center;
+  margin-bottom: 10vh;
 }
 main .container .diplomas_main {
   width: 100vw;
@@ -1487,6 +1488,29 @@ main .contact a p {
 @media (max-width: 400px) {
   main .dots {
     transform: scale(0.7);
+  }
+}
+@media (max-width: 1202px) {
+  main .container .projects-main .cards {
+    margin-top: 50vh;
+  }
+}
+@media (max-width: 450px) {
+  main .container .projects-main .cards {
+    width: 80vw !important;
+  }
+}
+@media (max-width: 390px) {
+  main .container .projects-main .cards {
+    width: 90vw !important;
+  }
+  main .container .projects-main .cards .card .text p {
+    font-size: 11pt;
+  }
+}
+@media (max-width: 780px) {
+  main .container .projects-main .voltar button {
+    transform: scale(0.8);
   }
 }
 @media (max-height: 800px) {

@@ -560,7 +560,7 @@ main {
             width: 100vw;
             height: 100vh;
             position: absolute;
-            overflow: hidden;
+            overflow-x: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -574,14 +574,14 @@ main {
                 width: 70vw !important;
                 height: auto;
                 padding-bottom: 10vh;
-                display: grid;
-                place-items: center;
-                display: grid;
-                gap: 15vh;
-                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 5vh;
+                
                 .card {
-                    width: 22vw;
+                    width: 25rem;
                     height: 30vh;
                     border-radius: 15px;
                     cursor: pointer;
@@ -607,7 +607,7 @@ main {
                         padding: 2vh;
 
                         h3 {
-                            font-size: 20pt;
+                            font-size: 18pt;
                         }
 
                         p {
@@ -621,6 +621,7 @@ main {
                 width: 100%;
                 display: grid;
                 place-items: center;
+                margin-bottom: 10vh;
             }
         }
 
@@ -2313,6 +2314,64 @@ and (min-height: 1217px)
     main {
         .dots {
             transform: scale(0.7);
+        }
+    }
+}
+
+@media (max-width: 1202px) {
+    main {
+        .container {
+            .projects-main {
+                .cards {
+                    margin-top: 50vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    main {
+        .container {
+            .projects-main {
+                .cards {
+                    width: 80vw !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    main {
+        .container {
+            .projects-main {
+                .cards {
+                    width: 90vw !important;
+
+                    .card {
+                        .text {
+                            p {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    main {
+        .container {
+            .projects-main {
+                .voltar {
+                    button {
+                        transform: scale(0.8);
+                    }
+                }
+            }
         }
     }
 }
