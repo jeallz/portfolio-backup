@@ -784,6 +784,7 @@ main {
     }
 
     .nxt {
+        transform: translate(0) !important;
         .content {
             .meio {
                 .banner {
@@ -2369,6 +2370,104 @@ and (min-height: 1217px)
                 .voltar {
                     button {
                         transform: scale(0.8);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1350px) {
+    main {
+        .container {
+            .projeto {
+                .content {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    main {
+        .container {
+            .projeto {
+                .content {
+                    .cima {
+                        font-size: 25pt;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        .container {
+            .projeto {
+                .content {
+                    .baixo {
+                        button {
+                            transform: scale(0.8) !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 625px) {
+    main {
+        .container {
+            .projeto {
+                .content {
+                    .cima {
+                        font-size: 20pt;
+                    }
+
+                    .meio {
+                        .banner {
+                            height: 30%;
+                        }
+
+                        .text {
+                            p {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    main {
+        .container {
+            .projeto {
+                .content {
+                    .cima {
+                        font-size: 15pt !important;
+                    }
+
+                    .meio {
+                        .banner {
+                            height: 20%;
+                        }
+                    }
+
+                    .meio {
+                        .text {
+                            .linguagens {
+                                img {
+                                    width: 30px;
+                                }
+                            }
+                        }
                     }
                 }
             }

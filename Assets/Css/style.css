@@ -670,6 +670,9 @@ main .container .item .content {
   width: 70%;
   height: auto;
 }
+main .nxt {
+  transform: translate(0) !important;
+}
 main .nxt .content .meio .banner {
   background: url(../Images/banners-projects/nxt.jpg);
   background-repeat: no-repeat;
@@ -1511,6 +1514,43 @@ main .contact a p {
 @media (max-width: 780px) {
   main .container .projects-main .voltar button {
     transform: scale(0.8);
+  }
+}
+@media (max-width: 1350px) {
+  main .container .projeto .content {
+    width: 80vw;
+  }
+}
+@media (max-width: 1200px) {
+  main .container .projeto .content .cima {
+    font-size: 25pt;
+  }
+}
+@media (max-width: 700px) {
+  main .container .projeto .content .baixo button {
+    transform: scale(0.8) !important;
+  }
+}
+@media (max-width: 625px) {
+  main .container .projeto .content .cima {
+    font-size: 20pt;
+  }
+  main .container .projeto .content .meio .banner {
+    height: 30%;
+  }
+  main .container .projeto .content .meio .text p {
+    font-size: 11pt;
+  }
+}
+@media (max-width: 400px) {
+  main .container .projeto .content .cima {
+    font-size: 15pt !important;
+  }
+  main .container .projeto .content .meio .banner {
+    height: 20%;
+  }
+  main .container .projeto .content .meio .text .linguagens img {
+    width: 30px;
   }
 }
 @media (max-height: 800px) {
