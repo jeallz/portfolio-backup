@@ -670,9 +670,6 @@ main .container .item .content {
   width: 70%;
   height: auto;
 }
-main .nxt {
-  transform: translate(0) !important;
-}
 main .nxt .content .meio .banner {
   background: url(../Images/banners-projects/nxt.jpg);
   background-repeat: no-repeat;
