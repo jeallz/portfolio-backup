@@ -1592,5 +1592,18 @@ main .contact a p {
     height: 17vh;
   }
 }
+@media (max-height: 930px) {
+  main .container .projects-main .cards .card .text h3 {
+    font-size: 15pt;
+  }
+  main .container .projects-main .cards .card .text p {
+    font-size: 11pt;
+  }
+}
+@media (max-width: 1560px) and (min-height: 100px) {
+  main .container .projects .content .meio .banner {
+    height: 30vh;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -2536,3 +2536,41 @@ and (min-height: 1217px)
         }
     }
 }
+
+@media (max-height: 930px) {
+    main {
+        .container {
+            .projects-main {
+                .cards {
+                    .card {
+                        .text {
+                            h3 {
+                                font-size: 15pt;
+                            }
+
+                            p {
+                                font-size: 11pt;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1560px) and (min-height: 100px) {
+    main {
+        .container {
+            .projects {
+                .content {
+                    .meio {
+                        .banner {
+                            height: 30vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
