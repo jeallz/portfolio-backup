@@ -366,6 +366,7 @@ main .container .experiencia .content .meio .cards {
   align-items: center;
 }
 main .container .experiencia .content .meio .cards .card {
+  width: 40rem;
   padding: 3vh;
   border-radius: 15px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.252);
